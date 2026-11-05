@@ -40,5 +40,5 @@ jobs:
         context: .
         push: true
         tags: |
-          your-dockerhub-username/bio-security:latest
-          your-dockerhub-username/bio-security:${{ github.sha }}
+          valeriamsl/bio-security:latest
+          valeriamsl/bio-security:${{ github.sha }}
